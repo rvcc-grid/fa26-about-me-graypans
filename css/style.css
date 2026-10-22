@@ -68,3 +68,35 @@ footer {
 #hobbies li:nth-child(even) {
   border-bottom: 2px solid #663382;
 }
+
+/* Photo gallery */
+#gallery {
+  max-width: 50rem;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #825233;
+  border-radius: 10px;
+}
+
+#gallery h2, #gallery figure {
+  text-align: center;
+}
+
+#gallery hr {
+  border: 0;
+  border-top: 2px solid #825233;
+  margin: 20px 0;
+}
+
+#gallery figure {
+  margin: 20px 0;
+}
+
+#gallery img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+#gallery figcaption {
+  padding: 10px;
+}
