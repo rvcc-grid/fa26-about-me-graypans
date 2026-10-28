@@ -125,7 +125,7 @@ footer {
   margin: 0 0 20px;
 }
 
-#lit p::first-letter {
+#lit p:first-child::first-letter {
   font-size: 2rem;
   color: #825233;
 }
@@ -143,5 +143,34 @@ footer {
     align-items: center;
     font-size: 2rem;
     margin-left: 1rem;
+  }
+    #lit {
+    max-width: 100%;
+  }
+
+  #lit div {
+    max-width: 100%;
+    columns: 40rem;
+  }
+}
+
+/* Large screen size */
+@media screen and (min-width: 100em) {
+  #gallery {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #gallery hr {
+    display: none;
+  }
+
+  #gallery h2 {
+    grid-column: 1 / -1;
+  }
+
+  #gallery figure {
+    display: block;
   }
 }
