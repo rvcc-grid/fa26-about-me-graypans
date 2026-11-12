@@ -105,6 +105,35 @@ footer {
   padding: 10px;
 }
 
+/* Embedded video */
+#video {
+  max-width: 50rem;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #825233;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#video figure {
+  margin: 20px 0 0;
+}
+
+#myVideo {
+  display: block;
+  width: 100%;
+  max-width: 40rem;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  border: 2px solid #663382;
+  border-radius: 10px;
+}
+
+#video figcaption {
+  padding: 10px;
+}
+
 /* Literature article */
 #lit {
   max-width: 40rem;
