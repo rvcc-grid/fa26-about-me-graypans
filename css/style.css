@@ -159,6 +159,57 @@ footer {
   color: #825233;
 }
 
+/* Contact form */
+#contact {
+  max-width: 40rem;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #825233;
+  border-radius: 10px;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact fieldset {
+  background-color: #663382;
+  color: #9CD4D7;
+  border: 2px solid #825233;
+  padding: 15px;
+}
+
+#contact label, #contact input, #contact select, #contact textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#contact input, #contact select, #contact textarea {
+  padding: 8px;
+  margin: 5px 0 15px;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact ul label, #contact ul input {
+  display: inline;
+  width: auto;
+}
+
+#contact button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  background-color: #9CD4D7;
+  color: #663382;
+  border: 2px solid #825233;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 /* Tablet size */
 @media screen and (min-width: 60em) {
   #gallery figure {
