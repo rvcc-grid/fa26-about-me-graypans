@@ -160,18 +160,6 @@ footer {
 }
 
 /* Contact form */
-#contact {
-  max-width: 40rem;
-  margin: 20px auto;
-  padding: 20px;
-  border: 2px solid #825233;
-  border-radius: 10px;
-}
-
-#contact h2 {
-  text-align: center;
-}
-
 #contact fieldset {
   background-color: #663382;
   color: #9CD4D7;
@@ -207,7 +195,6 @@ footer {
   color: #663382;
   border: 2px solid #825233;
   border-radius: 10px;
-  cursor: pointer;
 }
 
 /* Tablet size */
